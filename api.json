@@ -1,0 +1,567 @@
+{
+  "category": "UNDEAD",
+
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-01-14",
+    "repository": "https://github.com/wyrdness/strigoi",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+
+  "phenomenon": {
+    "id": "strigoi",
+    "name": "Strigoi",
+    "aliases": [
+      {
+        "name": "Strigoi mort",
+        "language": "Romanian",
+        "meaning": "Dead strigoi (undead vampire)"
+      },
+      {
+        "name": "Strigoi viu",
+        "language": "Romanian",
+        "meaning": "Living strigoi (living witch)"
+      },
+      {
+        "name": "Strigoii",
+        "language": "Romanian",
+        "meaning": "Plural form"
+      }
+    ],
+    "category": "UNDEAD",
+    "subcategory": "Vampire",
+    "tags": [
+      "undead",
+      "vampire",
+      "revenant",
+      "romanian",
+      "folklore",
+      "shapeshifter",
+      "blood-drinker",
+      "european"
+    ],
+    "status": "traditional folklore",
+    "description": {
+      "summary": "Romanian undead vampire variant with two forms: Strigoi viu (living witch) and Strigoi mort (undead vampire). The undead form rises after death due to improper burial, suicide, evil life, or being born with a caul. Features shapeshifting, blood-drinking, and life force draining.",
+      "full": "Strigoi are Romanian vampiric entities existing in two distinct forms: Strigoi viu (living witches with supernatural powers) and Strigoi mort (undead vampires that rise from the grave). The Strigoi mort is the more prominent form—a person who becomes undead after death due to factors such as improper burial, suicide, living an evil life, or being born with a caul or tail. Physical characteristics include pale skin, red eyes, and appearing as the deceased person. Strigoi mort possess powers including shapeshifting (into animals), invisibility, superhuman strength, and the ability to drain blood and life force from victims. They return to their families and villages, spreading disease and death. Detection methods include disturbed graves, uncorrupted bodies, and blood in the mouth. Prevention involves proper burial rites and placing garlic in the coffin. Destruction requires a stake through the heart, decapitation, or burning the body. The Strigoi tradition predates and influenced Bram Stoker's Dracula novel, forming the foundation of Romanian vampire mythology."
+    },
+    "etymology": {
+      "origin": "From Romanian, possibly derived from Latin 'strix' (screech owl, witch) or from Slavic roots meaning 'to flow' or 'to suck'.",
+      "meaning": "Vampire, undead, witch (depending on context)",
+      "first_use": "Pre-medieval Romanian folklore"
+    }
+  },
+
+  "classification": {
+    "taxonomy": {
+      "category": "UNDEAD",
+      "type": "Vampire",
+      "subtype": "Revenant",
+      "variant": "Romanian"
+    },
+    "related_phenomena": [
+      {
+        "id": "vampires",
+        "name": "Vampires (general)",
+        "relationship": "parent_category",
+        "description": "Broader vampire mythology"
+      },
+      {
+        "id": "dracula",
+        "name": "Dracula",
+        "relationship": "influenced",
+        "description": "Bram Stoker's Dracula influenced by Strigoi traditions"
+      },
+      {
+        "id": "revenant",
+        "name": "Revenant",
+        "relationship": "similar",
+        "description": "Undead that return from grave"
+      },
+      {
+        "id": "nosferatu",
+        "name": "Nosferatu",
+        "relationship": "related",
+        "description": "Similar vampire variant"
+      }
+    ]
+  },
+
+  "characteristics": {
+    "physical": {
+      "appearance": {
+        "description": "Appears as deceased person, pale skin, red eyes, may show signs of recent feeding",
+        "confidence": "high"
+      },
+      "coloration": [
+        "pale skin",
+        "red eyes",
+        "bloated appearance (some descriptions)"
+      ],
+      "features": [
+        {
+          "feature": "Pale complexion",
+          "description": "Deathly pale skin characteristic of undead",
+          "frequency": "always"
+        },
+        {
+          "feature": "Red eyes",
+          "description": "Eyes glow red or appear bloodshot",
+          "frequency": "common"
+        },
+        {
+          "feature": "Deceased appearance",
+          "description": "Appears as the person was in life or at death",
+          "frequency": "always"
+        },
+        {
+          "feature": "Blood evidence",
+          "description": "May have blood around mouth after feeding",
+          "frequency": "occasional"
+        },
+        {
+          "feature": "Sharp teeth/fangs",
+          "description": "Developed teeth for blood-drinking",
+          "frequency": "common"
+        }
+      ],
+      "morphology": "Humanoid undead form. Maintains appearance of deceased person but with vampiric features. Can shapeshift into animal forms."
+    },
+    "abilities": [
+      {
+        "ability": "Shapeshifting",
+        "description": "Can transform into animals (bats, wolves, rats, insects)",
+        "frequency": "common",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Invisibility",
+        "description": "Can become invisible at will",
+        "frequency": "occasional",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Superhuman strength",
+        "description": "Possesses strength far beyond living humans",
+        "frequency": "always",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Blood drinking",
+        "description": "Drains blood from victims",
+        "frequency": "always",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Life force draining",
+        "description": "Can drain life energy beyond just blood",
+        "frequency": "common",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Disease spreading",
+        "description": "Spreads illness and plague to communities",
+        "frequency": "common",
+        "evidence_level": "folklore"
+      }
+    ],
+    "behavior": {
+      "activity_period": "nocturnal",
+      "disposition": "malevolent",
+      "social_structure": "solitary",
+      "habitat_preference": [
+        "graves",
+        "former homes",
+        "villages",
+        "abandoned places"
+      ],
+      "patterns": [
+        "Returns to family and village",
+        "Feeds on blood and life force",
+        "Attacks former family members first",
+        "Spreads disease and death",
+        "Active at night",
+        "Returns to grave during day"
+      ]
+    }
+  },
+
+  "distribution": {
+    "range": {
+      "description": "Romanian folklore, particularly rural areas. Similar traditions found throughout Eastern Europe with regional variations.",
+      "continents": ["Europe"],
+      "countries": ["Romania", "Moldova", "parts of Ukraine"],
+      "regions": [
+        "Transylvania",
+        "Wallachia",
+        "Moldavia",
+        "Rural Romania"
+      ]
+    },
+    "temporal": {
+      "first_recorded": {
+        "date": "Pre-medieval",
+        "circa": true,
+        "source": "Romanian oral traditions"
+      },
+      "peak_activity_periods": [
+        {
+          "period": "Medieval to 19th century",
+          "description": "Height of Strigoi belief and vampire hunting practices"
+        },
+        {
+          "period": "Late 1800s",
+          "description": "Influenced Bram Stoker's Dracula (1897)"
+        }
+      ],
+      "seasonal_patterns": "No specific seasonal pattern, though some traditions associate activity with certain holy days"
+    }
+  },
+
+  "history": {
+    "origins": {
+      "cultural_roots": "Strigoi mythology is rooted in pre-Christian Romanian folklore, with influences from Slavic, Roman, and Dacian traditions. The beliefs served to explain disease, death, and misfortune in communities.",
+      "earliest_accounts": "Pre-medieval oral traditions, with written documentation appearing in medieval period.",
+      "folklore_connections": "Part of broader Eastern European vampire traditions. Related to Slavic vampire beliefs (vrykolakas, upir). Influenced modern vampire mythology including Bram Stoker's Dracula."
+    },
+    "timeline": [
+      {
+        "date": "Pre-medieval",
+        "event": "Oral traditions established",
+        "significance": "Strigoi beliefs become part of Romanian folk culture",
+        "source": "Oral tradition"
+      },
+      {
+        "date": "Medieval period",
+        "event": "Written documentation begins",
+        "significance": "Church and civil records document Strigoi beliefs and practices",
+        "source": "Historical records"
+      },
+      {
+        "date": "1700s-1800s",
+        "event": "Vampire hunting practices",
+        "significance": "Documented cases of exhumation and vampire destruction rituals",
+        "source": "Historical accounts"
+      },
+      {
+        "date": "1897",
+        "event": "Dracula published",
+        "significance": "Bram Stoker's novel draws heavily on Romanian Strigoi traditions",
+        "source": "Literary history"
+      },
+      {
+        "date": "20th century-present",
+        "event": "Cultural heritage",
+        "significance": "Strigoi remains part of Romanian cultural identity and folklore",
+        "source": "Contemporary folklore studies"
+      }
+    ],
+    "modern_era": "Strigoi traditions remain part of Romanian cultural heritage, preserved in folklore, rural traditions, and popular culture. While literal belief has declined, the cultural significance and influence on vampire mythology continues."
+  },
+
+  "becoming_strigoi": {
+    "causes": [
+      {
+        "cause": "Improper burial",
+        "description": "Burial without proper rites or in unconsecrated ground",
+        "frequency": "common"
+      },
+      {
+        "cause": "Suicide",
+        "description": "Those who take their own lives",
+        "frequency": "common"
+      },
+      {
+        "cause": "Evil life",
+        "description": "Living a particularly wicked or immoral life",
+        "frequency": "common"
+      },
+      {
+        "cause": "Born with caul",
+        "description": "Being born with amniotic membrane over head",
+        "frequency": "occasional"
+      },
+      {
+        "cause": "Born with tail",
+        "description": "Birth defects interpreted as demonic",
+        "frequency": "rare"
+      },
+      {
+        "cause": "Seventh son",
+        "description": "Being seventh son of seventh son in some traditions",
+        "frequency": "rare"
+      },
+      {
+        "cause": "Killed by Strigoi",
+        "description": "Victims of Strigoi may become Strigoi themselves",
+        "frequency": "occasional"
+      },
+      {
+        "cause": "Animal crossing grave",
+        "description": "Cat or other animal jumping over corpse before burial",
+        "frequency": "occasional"
+      }
+    ]
+  },
+
+  "detection": {
+    "methods": [
+      {
+        "method": "Disturbed grave",
+        "description": "Grave shows signs of disturbance or holes",
+        "reliability": "medium"
+      },
+      {
+        "method": "Uncorrupted body",
+        "description": "Exhumed body shows no decay or appears fresh",
+        "reliability": "high"
+      },
+      {
+        "method": "Blood in mouth",
+        "description": "Evidence of blood around mouth of exhumed corpse",
+        "reliability": "high"
+      },
+      {
+        "method": "Unusual deaths",
+        "description": "Series of mysterious deaths in family or village",
+        "reliability": "low"
+      },
+      {
+        "method": "Dreams/apparitions",
+        "description": "Deceased appearing to family members",
+        "reliability": "low"
+      }
+    ]
+  },
+
+  "protection": {
+    "preventive_measures": [
+      {
+        "method": "Proper burial rites",
+        "description": "Conducting full religious burial ceremony",
+        "effectiveness": "high"
+      },
+      {
+        "method": "Garlic in coffin",
+        "description": "Placing garlic in mouth or around body",
+        "effectiveness": "medium"
+      },
+      {
+        "method": "Stake before burial",
+        "description": "Driving stake through heart before burial (preventive)",
+        "effectiveness": "high"
+      },
+      {
+        "method": "Holy water",
+        "description": "Blessing corpse with holy water",
+        "effectiveness": "medium"
+      },
+      {
+        "method": "Weights on grave",
+        "description": "Placing heavy stones on grave to prevent rising",
+        "effectiveness": "low"
+      }
+    ],
+    "active_protection": [
+      {
+        "method": "Garlic",
+        "description": "Wearing garlic or placing at doors/windows",
+        "effectiveness": "medium"
+      },
+      {
+        "method": "Religious symbols",
+        "description": "Crosses, icons, holy objects",
+        "effectiveness": "medium"
+      },
+      {
+        "method": "Invitation threshold",
+        "description": "Strigoi cannot enter home without invitation",
+        "effectiveness": "high"
+      }
+    ]
+  },
+
+  "destruction": {
+    "methods": [
+      {
+        "method": "Stake through heart",
+        "description": "Wooden stake (preferably ash or oak) driven through heart",
+        "effectiveness": "high",
+        "traditional": true
+      },
+      {
+        "method": "Decapitation",
+        "description": "Severing the head from body",
+        "effectiveness": "high",
+        "traditional": true
+      },
+      {
+        "method": "Burning",
+        "description": "Complete cremation of the body",
+        "effectiveness": "very high",
+        "traditional": true
+      },
+      {
+        "method": "Garlic in mouth",
+        "description": "Placing garlic in mouth during exhumation",
+        "effectiveness": "medium",
+        "traditional": true
+      },
+      {
+        "method": "Dismemberment",
+        "description": "Cutting body into pieces",
+        "effectiveness": "medium",
+        "traditional": true
+      }
+    ]
+  },
+
+  "sightings": {
+    "statistics": {
+      "total_documented": 0,
+      "verified": 0,
+      "disputed": 0,
+      "debunked": 0,
+      "date_range": {
+        "earliest": "Medieval",
+        "latest": "Early 20th century"
+      }
+    },
+    "notable": [],
+    "database_path": null
+  },
+
+  "evidence": {
+    "physical": [],
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "historical": [
+      {
+        "id": "strigoi-historical-records",
+        "type": "historical documentation",
+        "name": "Church and civil records of vampire hunting",
+        "description": "Medieval and early modern records documenting exhumations and vampire destruction practices",
+        "status": "historical",
+        "analysis": "Documents reflect cultural beliefs and practices, not proof of supernatural entities"
+      }
+    ]
+  },
+
+  "theories": {
+    "historical": [
+      {
+        "name": "Disease explanation",
+        "description": "Strigoi belief served to explain epidemics and mysterious illnesses before germ theory",
+        "proponents": ["Folklorists", "Medical historians"],
+        "evidence_cited": ["Association with spreading disease", "Outbreaks triggering vampire accusations", "Exhumations during plague periods"]
+      },
+      {
+        "name": "Burial practice explanation",
+        "description": "Misinterpretation of natural decomposition processes as signs of undead activity",
+        "proponents": ["Forensic historians"],
+        "evidence_cited": ["Bloating and blood expulsion mistaken for feeding", "Nail/hair growth after death", "Preservation in certain soil conditions"]
+      }
+    ],
+    "cultural": [
+      {
+        "name": "Social control mechanism",
+        "description": "Beliefs enforced moral behavior and proper burial practices",
+        "proponents": ["Anthropologists"],
+        "evidence_cited": ["Suicide and evil life as causes", "Emphasis on proper burial", "Community cohesion through shared beliefs"]
+      }
+    ]
+  },
+
+  "cultural": {
+    "folklore": {
+      "traditions": [
+        "Romanian rural folklore",
+        "Transylvanian vampire traditions",
+        "Eastern Orthodox burial customs"
+      ],
+      "stories": [
+        "Village vampire hunting accounts",
+        "Family protection rituals",
+        "Exhumation and destruction tales"
+      ],
+      "beliefs": "Historically, Strigoi were widely believed to be real threats. Proper burial and protection rituals were taken seriously. Today, maintained as cultural heritage and folklore."
+    },
+    "indigenous": {
+      "cultures": [
+        "Romanian",
+        "Moldovan",
+        "Transylvanian"
+      ],
+      "significance": "Central to Romanian folklore and cultural identity. Part of pre-Christian traditions that survived into Christian era. Influenced national identity and international perception of Romanian culture.",
+      "sensitivity_note": "Strigoi traditions are part of Romanian cultural heritage. Approach with respect for living cultural tradition, not just horror entertainment.",
+      "respect_guidelines": "Recognize this as serious cultural tradition with deep historical roots. Avoid sensationalization or mockery."
+    },
+    "popular_culture": {
+      "literature": [
+        "Bram Stoker's Dracula (1897) - influenced by Strigoi",
+        "Romanian folklore collections",
+        "Vampire literature drawing on Strigoi traditions"
+      ],
+      "film_tv": [
+        "Numerous vampire films influenced by Strigoi mythology",
+        "Romanian cultural documentaries",
+        "Horror films featuring Strigoi"
+      ],
+      "other": [
+        "Gothic tourism in Transylvania",
+        "Halloween and vampire cultural celebrations",
+        "Role-playing games and fiction"
+      ]
+    }
+  },
+
+  "research": {
+    "researchers": [
+      {
+        "name": "Agnes Murgoci",
+        "affiliation": "Folklorist",
+        "contribution": "Early 20th century documentation of Romanian vampire beliefs",
+        "period": "Early 1900s"
+      },
+      {
+        "name": "Jan L. Perkowski",
+        "affiliation": "Slavic folklore scholar",
+        "contribution": "Comparative studies of vampire folklore",
+        "period": "1970s-1990s"
+      }
+    ],
+    "organizations": [],
+    "ongoing_studies": "Contemporary folklore studies, cultural heritage preservation, analysis of historical vampire hunting practices."
+  },
+
+  "sources": [
+    {
+      "id": "murgoci-vampire",
+      "type": "article",
+      "title": "The Vampire in Romania",
+      "authors": ["Agnes Murgoci"],
+      "publication": "Folklore",
+      "date": "1926"
+    },
+    {
+      "id": "perkowski-vampires",
+      "type": "book",
+      "title": "The Darkling: A Treatise on Slavic Vampirism",
+      "authors": ["Jan L. Perkowski"],
+      "publication": "Slavica Publishers",
+      "date": "1989"
+    }
+  ]
+}
